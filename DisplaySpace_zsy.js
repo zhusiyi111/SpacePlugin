@@ -20,8 +20,6 @@
                     result += str[i];
                 }
                $(this).val(result);
-
-
            })
 
             function filterStr(str){
@@ -35,13 +33,6 @@
                 }
                 return result;
             }
-
-
-
-
-
-
-
         });
     };
 })(jQuery);
