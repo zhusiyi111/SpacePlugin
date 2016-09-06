@@ -61,7 +61,6 @@
             var intBit = Math.floor(numLength / rules);
 
             var leftBit = numLength%rules;
-            console.log(leftBit);
             for(var i=0;i<intBit;i++){
                 result.push(rules);
             }
